@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(30, 28, 28);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-family: "Urbanist", sans-serif;
+    
+}
+.calculator{
+    background-color: #222;
+    padding: 20px;
+    border-radius: 15px;
+    width: 600px;
+    box-shadow: 0 10px 25px rgb(30, 28, 28);
+
+
+}
+.display{
+    width: 100%;
+    color: rgb(12, 16, 12);
+    background-color: #3b921b;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 20px;  
+    text-align: right;  
+    font-size: 20px;
+    font-weight: 700;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+button{
+    width: 25%;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3ms;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+button:hover{
+    opacity: 0.9;
+}
+.bottom{
+    display: flex;
+    gap: 10px;
+}
+.numbers{
+    width: 75%;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.numbers button{
+    width: 31.7%;
+}
+.right-operators{
+    width: 25%;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+.right-operators button{
+    width: 100%;
+    
+}
+.operator{
+    color: white;
+    background-color: rgb(54, 87, 235);
+}
+.clear{
+    color: white;
+    background-color: rgb(171, 58, 14);
+}
+.equals{
+    color: white;
+    background-color: #3b921b;
+    height: 145px;
+}
+.first-div{
+    display: flex;
+    gap: 10px;
+}
